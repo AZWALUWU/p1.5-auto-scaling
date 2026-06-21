@@ -228,4 +228,6 @@ Based on our live test logs, here is the chronological breakdown of the HPA beha
 
 The dynamic response of the system—showing the exact correlation between the massive CPU utilization spike and the immediate reactive scale-up of pod counts—is visualized in the graph chart saved inside this repository as `grafik-autoscaling.png`.
 
+![logo-project](./grafik-autoscaling.png)
+
 *The graph perfectly demonstrates how cloud-native infrastructure ensures high availability during peak traffic while optimizing operational infrastructure costs during downtime.*
