@@ -29,8 +29,8 @@ Ensure you have the following tools installed on your local machine:
 Kubernetes HPA requires real-time resource utilization metrics (CPU/Memory) to determine when to scale. We use the `metrics-server` addon inside Minikube.
 
 1. Start Minikube using the Docker driver (optimized for local environments without virtualization conflicts):
-   ```bash
-   minikube start --driver=docker
+```bash
+minikube start --driver=docker
 
 ```
 
